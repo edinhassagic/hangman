@@ -76,10 +76,10 @@
   .popup-container {
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
-    top: 0;
+    top: 300px;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 45rem;
     /* display: flex; */
     display: none;
     align-items: center;
@@ -127,4 +127,11 @@
   
   .notification-container.show {
     transform: translateY(-50px);
+  }
+
+  @media screen and (max-width: 544px) { 
+    
+
+
+
   }
